@@ -9,11 +9,11 @@
 }
 
 nav {
-  user-select: none;
+  -o-user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  -o-user-select: none;
+  user-select: none;
 }
 
 nav ul,
@@ -53,8 +53,8 @@ main {
   margin: 40px;
   background: rgba(16, 21, 61, 0.5);
   -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 15px;
   box-shadow: 0 0.5px 0 1px rgba(255, 255, 255, 0.23) inset,
